@@ -1,25 +1,15 @@
 //Variables required for express app
 const express = require('express');
 const app = express();
+const data = require('./data/projects.json');
+const routes = require('./routes');
+
 //Set the view engine to pug
 app.set('view engine', 'pug');
 
 //Method to serve static files
 app.use('/static', express.static('public'));
-
-//Create routes
-app.get('/', (req, res) => {
-    //app.locals.projects = data.projects;
-    //console.log(app.locals.projects);
-    res.render('index');
-});
-app.get('/about', (req, res) => {
-    res.render('about');
-});
-
-
-
-
+app.use(routes);
 
 
 
