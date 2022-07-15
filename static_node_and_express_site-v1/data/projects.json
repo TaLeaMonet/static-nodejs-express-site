@@ -1,44 +1,49 @@
 {
     "projects":[
        {
+          "id": 1,
           "project_name":"Random Quote Generator",
           "description":"Random Quote Generator that displays famous quotes from various historical figures.",
           "technologies":"CSS, HTML, JavaScript",
-          "live_link":"string",
+          "live_link":"https://taleamonet.github.io/random-quote-generator/",
           "github_link":"https://github.com/TaLeaMonet/random-quote-generator",
-          "image_urls":["filepath", "filepath"]
+          "image_urls":["/images/random-quote-generator1.png", "/images/random-quote-generator2.png"]
        },
        {
+         "id": 2,
           "project_name":"Data Pagination",
           "description":"Implementation of technique known as “pagination” to enhance the usability of a web page.",
           "technologies":"CSS, HTML, JavaScript",
-          "live_link":"string",
+          "live_link":"https://taleamonet.github.io/data-pagination-and-filtering/",
           "github_link":"https://github.com/TaLeaMonet/data-pagination-and-filtering",
-          "image_urls": ["filepath", "filepath"]
+          "image_urls": ["/images/data-pagination1.png", "/images/data-pagination2.png"]
        },
        {
+         "id": 3,
           "project_name":"Interactive Form",
           "description":"Using JavaScript to enhance an interactive registration form for a fictional Full Stack conference.",
           "technologies":"CSS, HTML, JavaScript",
-          "live_link":"string",
+          "live_link":"https://taleamonet.github.io/interactive-form/",
           "github_link":"https://github.com/TaLeaMonet/interactive-form",
-          "image_urls":["filepath", "filepath"]
+          "image_urls":["/images/interactive-form1.png", "/images/interactive-form2.png"]
        },
        {
+         "id": 4,
           "project_name":"OOP Game Show App",
           "description":"A browser-based, word guessing game: 'Phrase Hunter'",
           "technologies":"CSS, HTML, JavaScript",
-          "live_link":"string",
+          "live_link":" https://taleamonet.github.io/oop-game-show-app/",
           "github_link":"https://github.com/TaLeaMonet/oop-game-show-app",
-          "image_urls":["filepath", "filepath", "filepath"]
+          "image_urls":["/images/phrase-hunter1.png", "/images/phrase-hunter2.png", "/images/phrase-hunter2.png"]
        },
        {
+         "id": 5,
           "project_name":"Public API Requests",
           "description":"An app for a fictional company called Awesome Startup, a distributed company with remote employees working all over the world.",
           "technologies":"CSS, HTML, JavaScript, Random User Generator API",
-          "live_link":"string",
+          "live_link":"https://taleamonet.github.io/public-api-requests/",
           "github_link":"https://github.com/TaLeaMonet/public-api-requests",
-          "image_urls":["filepath", "filepath"]
+          "image_urls":["/images/public-api1.png", "/images/public-api2.png"]
        }
     ]
  }

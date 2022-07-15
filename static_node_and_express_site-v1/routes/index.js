@@ -4,16 +4,25 @@ const data = require('../data/projects.json');
 
 //Create routes
 router.get('/', (req, res) => {
-// Not sure if I the locals set to data.projects properly
     res.locals.projects = data.projects;
-    console.log(res.locals.projects)
     res.render('index');
 });
 router.get('/about', (req, res) => {
     res.render('about');
 });
+
+/** 
+ * Continue working on dynamic routes based on each project id 
+ */
+
 router.get('/project', (req, res) => {
-    res.render('project');
+    res.locals.projects = data.projects;
+    console.log(res.locals.projects);
+    res.render('project', {
+        projects: data[req.params.id]
+    });
+    
+
 });
 
 module.exports = router; 
