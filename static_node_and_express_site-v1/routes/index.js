@@ -14,15 +14,10 @@ router.get('/about', (req, res) => {
 /** 
  * Continue working on dynamic routes based on each project id 
  */
-
-router.get('/project', (req, res) => {
-    res.locals.projects = data.projects;
-    console.log(res.locals.projects);
+router.get('/project/:id', (req, res) => {
     res.render('project', {
-        projects: data[req.params.id]
+        projects: data.projects[req.params.id] 
     });
-    
-
 });
 
 module.exports = router; 
