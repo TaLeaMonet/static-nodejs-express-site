@@ -7,7 +7,7 @@
           "technologies":"CSS, HTML, JavaScript",
           "live_link":"https://taleamonet.github.io/random-quote-generator/",
           "github_link":"https://github.com/TaLeaMonet/random-quote-generator",
-          "image_urls":["/images/random-quote-generator1.png", "/images/random-quote-generator2.png"]
+          "image_urls":["/static/images/random-quote-generator1.png", "/static/images/random-quote-generator2.png"]
        },
        {
          "id": 2,
@@ -16,7 +16,7 @@
           "technologies":"CSS, HTML, JavaScript",
           "live_link":"https://taleamonet.github.io/data-pagination-and-filtering/",
           "github_link":"https://github.com/TaLeaMonet/data-pagination-and-filtering",
-          "image_urls": ["/images/data-pagination1.png", "/images/data-pagination2.png"]
+          "image_urls": ["/static/images/data-pagination1.png", "/static/images/data-pagination2.png"]
        },
        {
          "id": 3,
@@ -25,7 +25,7 @@
           "technologies":"CSS, HTML, JavaScript",
           "live_link":"https://taleamonet.github.io/interactive-form/",
           "github_link":"https://github.com/TaLeaMonet/interactive-form",
-          "image_urls":["/images/interactive-form1.png", "/images/interactive-form2.png"]
+          "image_urls":["/static/images/interactive-form1.png", "/static/images/interactive-form2.png"]
        },
        {
          "id": 4,
@@ -34,7 +34,7 @@
           "technologies":"CSS, HTML, JavaScript",
           "live_link":" https://taleamonet.github.io/oop-game-show-app/",
           "github_link":"https://github.com/TaLeaMonet/oop-game-show-app",
-          "image_urls":["/images/phrase-hunter1.png", "/images/phrase-hunter2.png", "/images/phrase-hunter2.png"]
+          "image_urls":["/static/images/phrase-hunter1.png", "/static/images/phrase-hunter2.png", "/static/images/phrase-hunter2.png"]
        },
        {
          "id": 5,
@@ -43,7 +43,7 @@
           "technologies":"CSS, HTML, JavaScript, Random User Generator API",
           "live_link":"https://taleamonet.github.io/public-api-requests/",
           "github_link":"https://github.com/TaLeaMonet/public-api-requests",
-          "image_urls":["/images/public-api1.png", "/images/public-api2.png"]
+          "image_urls":["/static/images/public-api1.png", "/static/images/public-api2.png"]
        }
     ]
  }
