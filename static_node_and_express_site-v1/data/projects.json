@@ -5,7 +5,7 @@
           "project_name":"Random Quote Generator",
           "description":"Random Quote Generator that displays famous quotes from various historical figures.",
           "technologies":["CSS, HTML, JavaScript"],
-          "live_link":"https://taleamonet.github.io/random-quote-generator/",
+          "live_link":"https://clinquant-pasca-01e3a4.netlify.app",
           "github_link":"https://github.com/TaLeaMonet/random-quote-generator",
           "image_urls":["/static/images/random-quote-generator2.png", "/static/images/random-quote-generator1.png",  "/static/images/random-quote-generator3.png", "/static/images/random-quote-generator4.png"]
        },
@@ -14,7 +14,7 @@
           "project_name":"Data Pagination",
           "description":"Implementation of technique known as “pagination” to enhance the usability of a web page.",
           "technologies":["CSS, HTML, JavaScript"],
-          "live_link":"https://taleamonet.github.io/data-pagination-and-filtering/",
+          "live_link":"https://genuine-lebkuchen-1d36ee.netlify.app",
           "github_link":"https://github.com/TaLeaMonet/data-pagination-and-filtering",
           "image_urls": ["/static/images/data-pagination1.png", "/static/images/data-pagination3.png", "/static/images/data-pagination2.png"]
        },
@@ -23,7 +23,7 @@
           "project_name":"Interactive Form",
           "description":"Using JavaScript to enhance an interactive registration form for a fictional Full Stack conference.",
           "technologies":["CSS, HTML, JavaScript"],
-          "live_link":"https://taleamonet.github.io/interactive-form/",
+          "live_link":"https://bespoke-tapioca-adc3e1.netlify.app",
           "github_link":"https://github.com/TaLeaMonet/interactive-form",
           "image_urls":["/static/images/interactive-form1.png", "/static/images/interactive-form3.png", "/static/images/interactive-form2.png", "/static/images/interactive-form4.png"]
        },
@@ -32,7 +32,7 @@
           "project_name":"OOP Game Show App",
           "description":"A browser-based, word guessing game: 'Phrase Hunter'",
           "technologies":["CSS, HTML, JavaScript"],
-          "live_link":" https://taleamonet.github.io/oop-game-show-app/",
+          "live_link":"https://enchanting-blancmange-2382a8.netlify.app",
           "github_link":"https://github.com/TaLeaMonet/oop-game-show-app",
           "image_urls":["/static/images/phrase-hunter1.png", "/static/images/phrase-hunter2.png", "/static/images/phrase-hunter3.png", "/static/images/phrase-hunter4.png"]
        },
@@ -41,7 +41,7 @@
           "project_name":"Public API Requests",
           "description":"An app for a fictional company called Awesome Startup, a distributed company with remote employees working all over the world.",
           "technologies":["CSS, HTML, JavaScript, Random User Generator API"],
-          "live_link":"https://taleamonet.github.io/public-api-requests/",
+          "live_link":"https://silly-palmier-e9c473.netlify.app",
           "github_link":"https://github.com/TaLeaMonet/public-api-requests",
           "image_urls":["/static/images/public-api1.png", "/static/images/public-api3.png", "/static/images/public-api2.png"]
        }
