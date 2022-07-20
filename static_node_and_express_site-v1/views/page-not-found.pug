@@ -1,0 +1,10 @@
+extends layout 
+
+block content 
+    div.container
+        h1= err.message 
+        h2= err.status 
+        pre= err.stack
+
+
+        a.home(href='/') Back

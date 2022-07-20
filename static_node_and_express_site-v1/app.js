@@ -12,12 +12,27 @@ app.use('/static', express.static('public'));
 app.use(routes);
 
 
-
-
-
-
-
-
+//Error handling
+//404 error handling 
+app.use((req, res, next) => {
+const err = new Error('Not found');
+err.status = 404;
+err.message = 'Page Not Found'
+console.log('Looks like this page does not exist', err);
+    next(err);
+    });
+//Global error handling
+app.use((err, req, res, next) => {
+    if(err) {
+        if(err.status === 404) {
+            res.status(404).render('page-not-found', {err}); 
+         } else {
+              err.status = 500;
+              console.log('Uh oh, looks like there was a problem', err) 
+              res.status(err.status || 500).render('error', {err}) 
+            }
+        }
+    });
 
 
 //App is being served on local host 3000
