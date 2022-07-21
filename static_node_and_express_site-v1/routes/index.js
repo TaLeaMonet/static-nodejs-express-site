@@ -13,10 +13,17 @@ router.get('/about', (req, res) => {
 });
 
 router.get('/project/:id', (req, res) => {
+    const projects = data.projects[req.params.id]
+    if (projects) {
     res.render('project', {
-        projects: data.projects[req.params.id], 
+        projects: projects, 
     });
-         
+    } else {
+    const err = new Error('Not Found');
+    err.status = 404;
+    err.message = "This page doesn't exist!";
+    res.render('page-not-found', { err: err })
+    }           
 });
 
 module.exports = router; 
