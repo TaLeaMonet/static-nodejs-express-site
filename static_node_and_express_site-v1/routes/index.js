@@ -3,15 +3,16 @@ const router = express.Router();
 const data = require('../data/projects.json');
 
 //Create routes
+//Home Route
 router.get('/', (req, res) => {
     res.locals.projects = data.projects;
     res.render('index');
 });
-
+//About Route
 router.get('/about', (req, res) => {
     res.render('about');
 });
-
+//Projects Route
 router.get('/project/:id', (req, res) => {
     const projects = data.projects[req.params.id]
     if (projects) {
